@@ -1,0 +1,21 @@
+img {
+    border: 5px solid rgb(50, 50, 235);
+    border-radius: 12px;
+    width: 100%;
+    padding: 5px;
+}
+*{
+    box-sizing: border-box;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 90%;
+    border: 2px solid black;
+    justify-content: center;
+    gap: 5px;
+}
+@media screen and (min-width:600px){
+    .grid{
+        grid-template-columns: 45% 45%;
+    }
+}
